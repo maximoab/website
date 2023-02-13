@@ -68,7 +68,7 @@ html {
 /*Base styles*/
 
 body {
-	font-family: 'Inter', sans-serif;
+	font-family: 'Space Mono', sans-serif;
 	font-size: 1.8rem;
 	font-weight: 400;
 	line-height: 1.4;
@@ -120,12 +120,12 @@ body .magic-hover {
 
 h1,
 h2 {
-	font-family: 'Inter', sans-serif;
-	font-weight: 700;
+	font-family: 'Helvetica', sans-serif;
+  font-weight: 700;
 	text-align: center;
 	line-height: 1.2;
-	color: var(--text-title);
-	padding-bottom: 2.5rem;
+  color: var(--text-title);
+  padding-bottom: 2.5rem;
 }
 
 h1 {
@@ -410,7 +410,7 @@ a.btn {
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	grid-gap: 4rem;
 	width: 100%;
-	max-width: var(--content-width);
+  max-width: var(--content-width);
 	margin: 0 auto;
 	margin-bottom: 6rem;
 	padding-top: 40px;
@@ -418,17 +418,17 @@ a.btn {
 
 @media (max-width: 30.625em) {
 	.projects-section {
-		padding: 6rem 1rem;;
+    padding: 6rem 1rem;;
 	}
 	.projects-grid {
-		grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
 	}
 }
 
 .project {
 	background: #ffffff;
-	box-shadow: var(--shadow-small);
-	border-radius: 10px;
+  box-shadow: var(--shadow-small);
+  border-radius: 10px;
 	overflow: hidden;
 	transition: all 0.3s ease-out;
 }
@@ -445,7 +445,7 @@ a.btn {
 .project-image {
 	width: 100.9%;
 	object-fit: cover;
-	border-radius: 6px;
+  border-radius: 6px;
 }
 
 .project:hover {
@@ -456,7 +456,7 @@ a.btn {
 .project-title {
 	font-size: 2rem;
 	padding: 2rem 2rem 1rem 0.5rem;
-	color: var(--text-title);
+  color: var(--text-title);
 }
 
 .project-p {
@@ -553,8 +553,8 @@ footer {
 }
 
 .contact-section-1 > a{
-	font-size: 3rem;
-	font-weight: 600;
+  font-size: 3rem;
+	/*font-weight: 600;*/
 }
 
 .contact-section-1, .contact-details {
@@ -565,13 +565,20 @@ footer {
 @media (min-width: 60em) {
 	.contact-section-2 {
 		flex-direction: row;
-		gap: 8rem;
+    gap: 8rem;
 	}
 }
 
 @media (max-width: 28.25em) {
   .contact-section-1 a {
     font-size: 2.3rem;
+  }
+
+  footer {
+    padding-top: 10rem;
+  }
+  .contact-section-2 {
+    padding-bottom: 10rem;
   }
 }
 
@@ -714,3 +721,47 @@ footer {
     }
 }
 
+.typewriter {
+  overflow: hidden;
+}
+
+.typewriter h2,
+.typewriter h3 {
+  font-size: 16rem;
+  white-space: nowrap;
+  width: 200%;
+  margin: 0;
+  animation: typewriter 36s linear infinite;
+  color: #fff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #333;
+  text-shadow: none;
+}
+
+.typewriter h2 {
+  color: #333;
+  -webkit-text-stroke: unset;
+}
+
+@keyframes typewriter {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.typewriter h3 {
+ animation-direction: reverse;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 60px;
+  background-color: #333;
+  color: #333;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+}
