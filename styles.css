@@ -729,13 +729,21 @@ footer {
 .typewriter h3 {
   font-size: 16rem;
   white-space: nowrap;
-  width: 200%;
+  width: 180%;
   margin: 0;
   animation: typewriter 36s linear infinite;
   color: #fff;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #333;
   text-shadow: none;
+}
+
+@media (max-width: 28.25em) {
+  .typewriter h2,
+  .typewriter h3 {
+    width: 800%;
+    animation: typewriter 20s linear infinite;
+  }
 }
 
 .typewriter h2 {
