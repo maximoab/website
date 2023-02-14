@@ -339,7 +339,7 @@ a.btn-negative {
     font-size: 1.6rem;
   }
   #welcome-section {
-    height: 880px;
+    height: 780px;
     padding-top: 20rem;
     padding-bottom: 20rem;
   }
@@ -501,7 +501,7 @@ footer {
     padding: 2rem 2rem 1rem 2rem;
   }
   .contact-section {
-    height: 640px;
+    height: 610px;
   }
 }
 
@@ -761,6 +761,7 @@ footer {
 
 .typewriter h3 {
  animation-direction: reverse;
+ color: #fff;
 }
 
 .vertical-line {
