@@ -517,7 +517,7 @@ footer {
 }
 
 .underlined {
-  text-decoration: underline 2px;
+  /*text-decoration: underline 2px;*/
 }
 
 @media (max-width: 28.75em) {
