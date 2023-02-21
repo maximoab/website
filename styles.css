@@ -467,6 +467,16 @@ a.btn-negative {
   height: 70%;
 }
 
+@media (max-width: 28.25em) {
+  .project-image {
+    filter: saturate(100%);
+  }
+  .project-image:hover {
+    transform: unset;
+    height: unset;
+  }
+}
+
 .project-title {
 	font-size: 2rem;
 	padding: 2rem 2rem 1rem 0.5rem;
