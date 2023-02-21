@@ -470,9 +470,10 @@ a.btn-negative {
 @media (max-width: 28.25em) {
   .project-image {
     filter: saturate(100%);
+    transform: translateY(-30px);
   }
   .project-image:hover {
-    transform: unset;
+    filter: unset;
     height: unset;
   }
 }
