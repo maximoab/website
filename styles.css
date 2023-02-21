@@ -760,6 +760,9 @@ footer {
   .typewriter h3 {
     width: 800%;
     animation: typewriter 20s linear infinite;
+    -webkit-text-stroke-color: unset;
+    -webkit-text-stroke-color: unset;
+    color: #333!important;
   }
 }
 
@@ -778,6 +781,8 @@ footer {
 }
 
 .typewriter h3 {
+  font-family: 'Helvetica';
+  font-weight: 600;
  animation-direction: reverse;
  color: #fff;
  -webkit-text-fill-color: #fff;
