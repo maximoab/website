@@ -458,11 +458,13 @@ a.btn-negative {
   height: 63%;
   object-fit: cover;
   filter: saturate(0%);
-  transition: filter 1s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .project-image:hover {
   filter: saturate(100%);
+  transform: translateY(-30px);
+  height: 70%;
 }
 
 .project-title {
@@ -768,6 +770,7 @@ footer {
 .typewriter h3 {
  animation-direction: reverse;
  color: #fff;
+ -webkit-text-fill-color: #fff;
 }
 
 .vertical-line {
@@ -778,4 +781,74 @@ footer {
   display: flex;
   vertical-align: middle;
   margin: 0 auto;
+}
+
+/*section heading nueva*/
+.data-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-large {
+  position: relative;
+  z-index: 1;
+  max-width: 1860px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-width-statement {
+  position: relative;
+  left: 2rem;
+  z-index: 10;
+  width: 67rem;
+}
+
+.heading-lg {
+  font-size: 10rem;
+  font-family: Helvetica;
+  font-weight: 900;
+}
+
+.space-larger {
+  width: 100%;
+  height: 16rem;
+}
+
+.clients {
+  max-width: var(--content-width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+#section-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 720px;
+  background-color: #fff;
+  padding: 6rem auto;
+}
+
+#section-details h2 {
+  font-size: 5.5rem;
+}
+
+#section-details p {
+  text-align: center;
+  display: flex;
+  font-size: 2.4rem;
+  padding-bottom: 7.5rem;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+.section-details-container {
+  max-width: 800px;
 }
