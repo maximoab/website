@@ -121,7 +121,7 @@ body .magic-hover {
 h1,
 h2,
 h3{
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Roboto', sans-serif;
   font-weight: 700;
 	text-align: center;
 	line-height: 1.2;
@@ -479,6 +479,7 @@ a.btn-negative {
 }
 
 .project-title {
+  font-weight: 500;
 	font-size: 2rem;
 	padding: 2rem 2rem 1rem 0.5rem;
   color: var(--text-title);
@@ -782,11 +783,10 @@ footer {
 }
 
 .typewriter h3 {
-  font-family: 'Helvetica';
   font-weight: 600;
- animation-direction: reverse;
- color: #fff;
- -webkit-text-fill-color: #fff;
+  animation-direction: reverse;
+  color: #fff;
+  -webkit-text-fill-color: #fff;
 }
 
 .vertical-line {
@@ -823,7 +823,7 @@ footer {
 
 .heading-lg {
   font-size: 10rem;
-  font-family: Helvetica;
+  font-family: Inter;
   font-weight: 900;
 }
 
