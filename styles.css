@@ -86,7 +86,8 @@ body #magicMouseCursor {
   left: 0;
   top: 0;
   transition: transform 0.07s, width 0.3s, height 0.3s;
-  pointer-events: none; }
+  pointer-events: none;
+}
   body #magicMouseCursor.cursor-square {
   border-radius: 0; }
 body #magicPointer {
@@ -99,24 +100,30 @@ body #magicPointer {
   background-color: red;
   border-radius: 50%;
   pointer-events: none;
-  transition: background 0.2s, width 0.2s, height 0.2s, box-shadow 0.2s; }
+  transition: background 0.2s, width 0.2s, height 0.2s, box-shadow 0.2s;
+}
   body #magicPointer.is-hover {
-  background-color: #fff; }
+  background-color: #fff; 
+}
   body #magicPointer.pointer-blur {
   height: 50px;
   width: 50px;
   background: none;
   border: 1px solid #fff;
-  box-shadow: 0px 0px 15px -5px white; }
+  box-shadow: 0px 0px 15px -5px white; 
+}
   body #magicPointer.pointer-overlay {
   height: 50px;
   width: 50px;
   mix-blend-mode: difference;
-  box-shadow: 0px 0px 15px -5px white; }
+  box-shadow: 0px 0px 15px -5px white; 
+}
 body .magic-hover {
-  transition: all 0.2s; }
+  transition: all 0.2s;
+}
   body .magic-hover:hover {
-  cursor: none!important; }
+  cursor: none!important;
+}
 
 h1,
 h2,
@@ -157,8 +164,8 @@ img {
 a.btn {
 	/*cursor: pointer;*/
   display: inline-block;
-	padding: 1.5rem 2rem;
-	font-size: 1.6rem;
+  padding: 1.5rem 2rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.2rem;
@@ -181,6 +188,13 @@ a.btn-negative {
   color: #333;
   text-transform: uppercase;
   border-bottom: 1px solid #333;
+  transition: all 0.3s ease-in-out;
+}
+
+a.btn-negative:hover {
+  letter-spacing: 0.4rem;
+  background-color: #333;
+  color: #ccc;
 }
 
 .title-span {
