@@ -840,6 +840,7 @@ footer {
 .typewriter h3 {
   text-align: center;
   font-size: 16rem;
+  letter-spacing: 3rem;
   /*white-space: nowrap;*/
   width: 100%;
   margin: 0;
@@ -854,11 +855,16 @@ footer {
   .typewriter h2,
   .typewriter h3 {
     width: 100%;
-    font-size: 7rem;
+    font-size: 5rem;
+    letter-spacing: 1.3rem;
     /*animation: typewriter 20s linear infinite;*/
     -webkit-text-stroke-color: unset;
     -webkit-text-stroke-color: unset;
     color: #333!important;
+    padding-left: 5px;
+  }
+  .typewriter h3 {
+    -webkit-text-stroke: thin;
   }
 }
 
