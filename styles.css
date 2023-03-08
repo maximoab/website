@@ -534,7 +534,6 @@ a.btn-negative:hover {
   }
   .project-image:hover {
     filter: unset;
-    height: unset;
   }
 }
 
