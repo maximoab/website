@@ -639,10 +639,12 @@ footer {
 	transition: transform 0.3s ease-out;
 	color: var(--main-gray);
   text-decoration: underline;
+  transition: all 0.3s ease-in-out;
 }
 
 .contact-details:hover {
-	transform: translateY(8px);
+  transform: translateY(8px);
+  letter-spacing: 0.4rem;
 }
 
 .contact-section-1 {
