@@ -854,7 +854,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 8rem;
+  margin: 15rem auto 8rem auto;
 }
 
 .first-b .banner-video-typo {
@@ -875,7 +875,7 @@ footer {
 }
 
 .first p {
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 
 .first-b p {
@@ -924,7 +924,6 @@ footer {
 
 .banner-video-typo h2:hover {
   mix-blend-mode: screen;
-  border: none
 }
 
 .typewriter {
