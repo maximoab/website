@@ -326,6 +326,13 @@ a.btn:hover {
   margin: 8rem;
 }
 
+@media screen and (max-width:28.04em) {
+  .welcome-section-content {
+    padding: 16rem 1rem;
+    margin: 0!important;
+  }
+}
+
 .welcome-section-content > p {
 	font-size: 2.4rem;
 	text-align: center;
@@ -503,18 +510,26 @@ a.btn:hover {
 
 .projects-section {
 	text-align: center;
-	padding: 10rem 2rem;
-  margin: 6rem auto;
+  padding: 10rem 2rem;
+  margin: 0rem auto 6rem auto;
 }
 
 .projects-section-header {
-  /*padding: 6rem 2rem;*/
+  padding: 3rem 0;
 }
 
 @media (max-width: 28.75em) {
 	.projects-section-header {
-		font-size: 4rem;
+    font-size: 4rem;
+    padding: 8rem 0 3rem 0;
 	}
+  .projects-section {
+    margin: 0 1rem 6rem 1rem;
+    padding: 6rem;
+  }
+  .projects-section > .projects-grid {
+  padding: 2rem 3rem;
+}
 }
 
 /*Automatic image grid using no media queries*/
@@ -614,7 +629,7 @@ footer {
     padding: 2rem 2rem 1rem 2rem;
   }
   .contact-section {
-    height: 610px;
+    height: 410px;
   }
 }
 
@@ -895,10 +910,16 @@ footer {
   text-align: center;
 }
 
+.welcome-section-content {
+  padding: 10rem auto;
+  margin: 20rem auto 21rem auto;
+}
+
 @media screen and (max-width: 28.04em) {
   #welcome-section {
     padding-top: 0;
     padding-bottom: 0;
+    height: 100%;
   }
 
 }
