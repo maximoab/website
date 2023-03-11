@@ -861,6 +861,11 @@ footer {
   margin: 0;
 }
 
+.welcome-section {
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
+
 .first-b  a.btn-negative {
   margin-top: 30px!important;
 }
