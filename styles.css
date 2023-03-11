@@ -446,7 +446,7 @@ a.btn-negative:hover {
 	justify-content: center;
 	align-items: center;
   width: 100%;
-  height: 620px;
+  height: 540px;
   background-color: #f7f7f7;
   padding: 6rem auto;
 }
@@ -456,7 +456,8 @@ a.btn-negative:hover {
 	display: flex;
 	font-size: 2.4rem;
 	padding-top: 1rem;
-	/*padding-bottom: 7.5rem;*/
+  /*padding-bottom: 7.5rem;*/
+  padding-bottom: 1rem;
 	max-width: 800px;
 	line-height: 1.5;
 }
@@ -474,7 +475,6 @@ a.btn-negative:hover {
   }
   #section-2 {
     height: 680px;
-    padding-top: 4rem;
   }
 }
 
@@ -487,7 +487,7 @@ a.btn-negative:hover {
 }
 
 .projects-section-header {
-	padding: 6rem 2rem;
+  /*padding: 6rem 2rem;*/
 }
 
 @media (max-width: 28.75em) {
