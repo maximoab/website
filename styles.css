@@ -477,7 +477,7 @@ a.btn:hover {
 	display: flex;
 	font-size: 2.4rem;
 	padding-top: 1rem;
-  /*padding-bottom: 7.5rem;*/
+  margin-bottom: 6rem;
   padding-bottom: 1rem;
 	max-width: 800px;
 	line-height: 1.5;
@@ -605,7 +605,7 @@ footer {
   width: 100%;
   max-width: 880px;
 	margin: auto;
-  height: 640px;
+  height: 600px;
   padding: 0 2rem;
 }
 
