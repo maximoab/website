@@ -318,12 +318,14 @@ a.btn:hover {
   margin: auto;
 }
 
+
 .welcome-section-content {
   max-width: var(--content-width);
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 8rem;
+  padding: 17rem;
+  margin: 8rem auto;
 }
 
 @media screen and (max-width:28.04em) {
@@ -910,10 +912,10 @@ footer {
   text-align: center;
 }
 
-.welcome-section-content {
-  padding: 10rem auto;
-  margin: 20rem auto 21rem auto;
-}
+/*.welcome-section-content {*/
+  /*padding: 10rem auto;*/
+  /*margin: 20rem auto 21rem auto;*/
+/*}*/
 
 @media screen and (max-width: 28.04em) {
   #welcome-section {
