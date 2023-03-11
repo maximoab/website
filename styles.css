@@ -857,6 +857,30 @@ footer {
   margin: 8rem;
 }
 
+.first-b .banner-video-typo {
+  margin: 0;
+}
+
+.first-b  a.btn-negative {
+  margin-top: 30px!important;
+}
+
+.first-b .banner-video-typo h2{
+ padding-top: 2.5rem;
+}
+
+@media screen and (max-width: 28.04em) {
+  .first {
+    display: none!important;
+  }
+}
+
+@media screen and (min-width:28.04em) {
+  .first-b {
+    display: none!important;
+  }
+}
+
 .banner-video-typo video {
   width: 100%;
   height: 400px;
