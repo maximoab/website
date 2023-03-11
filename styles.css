@@ -301,10 +301,6 @@ a.btn-negative:hover {
   padding: 4rem auto;
 }
 
-.first {
-  padding-top: 100px;
-}
-
 .welcome-section-content {
   max-width: var(--content-width);
   display: flex;
@@ -977,6 +973,9 @@ footer {
     -webkit-text-stroke-color: unset;
     color: #333!important;
     padding-left: 5px;
+  }
+  .banner-video-typo {
+    height: 112px;
   }
   .typewriter h3 {
     -webkit-text-stroke: 1px!important;
