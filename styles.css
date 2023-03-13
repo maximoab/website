@@ -555,6 +555,7 @@ a.btn:hover {
 	}
 	.projects-grid {
     grid-template-columns: 1fr;
+    gap: 4rem;
 	}
 }
 
