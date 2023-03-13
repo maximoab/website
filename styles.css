@@ -334,7 +334,7 @@ a.btn:hover {
 @media screen and (max-width:28.04em) {
   .welcome-section-content {
     padding: 16rem 1rem;
-    margin: 0!important;
+    /*margin: 0!important;*/
   }
 }
 
