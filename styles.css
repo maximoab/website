@@ -925,7 +925,7 @@ footer {
   color: #333;
   letter-spacing: 3rem;
   font-weight: 900;
-  padding-left: 20px;
+  /*padding-left: 10px;*/
   mix-blend-mode: screen;
   text-transform: uppercase;
   pointer-events:none;
@@ -988,11 +988,14 @@ footer {
 
 @media screen and (max-width: 1200px) {
   .banner-video-typo h2 {
-    font-size: 14rem;
+    /*font-size: 19rem;*/
   }
   .banner-video-typo {
   height: 250px;
-
+}
+  .active {
+    display: inline-block;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -1002,7 +1005,7 @@ footer {
     font-size: 9rem;
   } 
   .banner-video-typo {
-  height: 250px;
+  height: 230px;
 
 }
 
