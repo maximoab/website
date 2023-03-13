@@ -1013,7 +1013,7 @@ footer {
   .typewriter h3,
   .banner-video-typo h2{
     width: 100%;
-    /*font-size: 6rem;*/
+    font-size: 8rem;
     letter-spacing: .7rem;
     /*animation: typewriter 20s linear infinite;*/
     -webkit-text-stroke-color: unset;
@@ -1027,7 +1027,8 @@ footer {
   }
 
   .banner-video-typo {
-    height: 226px;
+    height: 208px;
+    margin-bottom: 6rem;
   }
   .typewriter h3 {
     -webkit-text-stroke: 1px!important;
