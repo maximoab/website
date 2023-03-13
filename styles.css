@@ -198,7 +198,7 @@ a.btn-negative {
 
 a.btn-negative:hover,
 a.btn:hover {
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
 }
 
 .title-span {
@@ -272,7 +272,7 @@ a.btn:hover {
 	}
 	
 	.nav-list {
-		margin: 0 1rem;
+    margin: 0 1rem;
 	}
   
   .nav-list li {
@@ -280,7 +280,7 @@ a.btn:hover {
   }
 
   .nav-list li a {
-    font-size: 1.82rem;
+    font-size: 1.3rem;
   }
   
   .logo {
@@ -297,6 +297,10 @@ a.btn:hover {
 
 .nav-list  li {
   padding: 1.6rem;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  letter-spacing: 0.4rem;
+  text-transform: capitalize;
 }
 
 .nav-list a:hover {
@@ -665,11 +669,7 @@ footer {
 	transition: transform 0.3s ease-out;
 	color: var(--main-gray);
   text-decoration: underline;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact-details:hover {
-  transform: translateY(8px);
+  text-underline-offset: 1rem;
   letter-spacing: 0.4rem;
 }
 
@@ -705,6 +705,12 @@ footer {
   }
   .contact-section-2 {
     padding-bottom: 10rem;
+  }
+  .contact-details {
+    padding-bottom: 4rem;
+  }
+  a.email {
+    font-size: 1.7rem;
   }
 }
 
