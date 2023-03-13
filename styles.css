@@ -133,7 +133,6 @@ h3{
 	line-height: 1.2;
   color: var(--text-title);
   padding-bottom: 2.5rem;
-  letter-spacing: 0.1rem;
 }
 
 h1 {
@@ -142,10 +141,12 @@ h1 {
 
 h2 {
 	font-size: 4.2rem;
+  letter-spacing: 0.1rem;
 }
 
 h3 {
 	font-size: 3.6rem;
+  letter-spacing: 0.06rem;
 }
 
 ul {
@@ -232,11 +233,10 @@ a.btn:hover {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.6);
-	/*background-color: var(--main-black);*/
+  background-color: rgba(255, 255, 255, 0.6);
 	-webkit-backdrop-filter: blur(8px);
 	backdrop-filter: blur(8px);
-	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 	z-index: 10;
 }
 
@@ -265,7 +265,6 @@ a.btn:hover {
 
 .nav-list {
 	display: flex;
-  /*margin-right: 2rem;*/
 }
 
 @media (max-width: 28.75em) {
@@ -893,11 +892,6 @@ footer {
   text-align: center;
 }
 
-/*.welcome-section-content {*/
-  /*padding: 10rem auto;*/
-  /*margin: 20rem auto 21rem auto;*/
-/*}*/
-
 @media screen and (max-width: 28.04em) {
   #welcome-section {
     padding-top: 0;
@@ -928,6 +922,7 @@ footer {
   padding-left: 20px;
   mix-blend-mode: screen;
   text-transform: uppercase;
+  pointer-events:none;
 }
 
 .typewriter {
@@ -961,7 +956,13 @@ footer {
   .typewriter h2,
   .typewriter h3,
   .banner-video-typo h2{
-    /*font-size: 12rem;*/
+    font-size: 12rem;
+  }
+  .banner-video-typo {
+    height: 236px;
+  }
+  #welcome-section{
+    height: unset;
   }
 }
 
@@ -1014,12 +1015,15 @@ footer {
   .banner-video-typo h2{
     width: 100%;
     font-size: 6rem;
-    letter-spacing: .7rem;
+    /*letter-spacing: .7rem;*/
     /*animation: typewriter 20s linear infinite;*/
     -webkit-text-stroke-color: unset;
     -webkit-text-stroke-color: unset;
     color: #333!important;
     padding-left: 5px;
+  }
+  .ive {
+    display: none;
   }
   .banner-video-typo {
     height: 100px;
