@@ -972,6 +972,20 @@ footer {
   }
 }
 
+@media screen and (max-width: 1600px) {
+  .banner-video-typo {
+    margin: 0;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .banner-video-typo {
+    margin-top: 12rem;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .banner-video-typo h2 {
     font-size: 14rem;
