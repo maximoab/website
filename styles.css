@@ -98,8 +98,8 @@ body #magicMouseCursor.cursor-square {
 }
 body #magicPointer {
   z-index:10000000!important;
-  height: 5px;
-  width: 5px;
+  height: 15px;
+  width: 15px;
   top: 0;
   left: 0;
   position: fixed;
@@ -572,19 +572,20 @@ a.btn:hover {
   margin-bottom: 6rem;
 }
 
-.projects-grid:nth-child(odd){
+.projects-grid a:nth-child(odd){
   justify-content: flex-start;
-  /*align-items: flex-start;*/
+  align-self: flex-start;
 }
+
+.projects-grid a:nth-child(odd){}
 
 .projects-grid a {
   width: 100%;
-  max-width: 880px;
+  max-width: 844px;
 }
 
 .projects-grid:nth-child(even) {
-  justify-content: flex-end!important;
-  align-items: flex-end;
+  flex-direction: row-reverse;
 }
 
 @media (max-width: 30.625em) {
@@ -615,8 +616,12 @@ a.btn:hover {
   /*width: 980px;*/
  height: 680px;
   object-fit: cover;
-  filter: saturate(0%);
-  transition: filter 0.3s ease-out;
+  filter: saturate(4%);
+  transition: filter 1s ease-out;
+}
+
+.projects-grid h3 {
+  letter-spacing: 14px;
 }
 
 @media screen and (max-width: 30em) {
@@ -624,11 +629,12 @@ a.btn:hover {
     height: 260px;
   }
   .projects-grid {
-    gap: 10rem;
+    gap: 8rem;
   }
   .projects-grid h3 {
     padding-top: 2rem;
-    font-size: 2.4rem;
+    font-size: 1.9rem;
+    letter-spacing: 4px;
   }
 }
 
