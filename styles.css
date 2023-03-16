@@ -686,8 +686,6 @@ a.btn:hover {
 
 .projects-grid h3 {
   font-size: 3rem;
-  letter-spacing: 4px;
-  text-transform: uppercase;
 }
 
 @media screen and (max-width: 30em) {
@@ -700,8 +698,8 @@ a.btn:hover {
   }
   .projects-grid h3 {
     padding-top: 2rem;
-    font-size: 1.9rem;
-    letter-spacing: 3px;
+    font-size: 2.4rem;
+    text-align: center;
   }
 }
 
