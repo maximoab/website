@@ -546,6 +546,7 @@ a.btn:hover {
     width: 100%;
     height: 460px;
     object-fit: cover;
+    margin-bottom: -3rem!important;
   }
   .about-me {
     padding-top: 0px;
@@ -565,7 +566,7 @@ a.btn:hover {
     margin-bottom: 2rem;
   }
   #about-me {
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
   }
 }
 
@@ -724,18 +725,20 @@ a.btn:hover {
 
 .project-image {
   /*width: 980px;*/
-  width: 70vw;
-  max-width: 660px;
+  /*width: 70vw;*/
+  max-width: 800px;
+  max-height: 800px;
   /*height: 680px;*/
-  height: 70vh;
-  max-height: 540px;
+  height: 600px;
+  /*max-height: 540px;*/
   object-fit: cover;
   filter: saturate(4%);
   transition: all 1s ease-out;
 }
 
 .projects-grid h3 {
-  font-size: 3rem;
+  /*font-size: 3rem;*/
+  /*font-weight: 400;*/
 }
 
 @media screen and (max-width: 30em) {
