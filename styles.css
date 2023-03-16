@@ -511,7 +511,7 @@ a.btn:hover {
   }
 
   .col-der {
-    border-left: 2px dotted rgba(0,0,0,.4);
+    /*border-left: 2px dotted rgba(0,0,0,.4);*/
     padding-left: 4rem;
     margin-left: 0;
     margin-bottom: 2rem;
@@ -664,6 +664,15 @@ a.btn:hover {
   color: var(--main-black);
 }
 
+@media screen and (max-width: 30em) {
+  .code:hover,
+  .code {
+    display: none;
+    font-size: 0;
+    visibility: hidden;
+  }
+}
+
 .project-image {
   /*width: 980px;*/
   width: 70vw;
@@ -676,7 +685,8 @@ a.btn:hover {
 }
 
 .projects-grid h3 {
-  letter-spacing: 10px;
+  font-size: 3rem;
+  letter-spacing: 4px;
   text-transform: uppercase;
 }
 
@@ -689,15 +699,14 @@ a.btn:hover {
     gap: 8rem;
   }
   .projects-grid h3 {
-    padding-top: 4rem;
+    padding-top: 2rem;
     font-size: 1.9rem;
-    letter-spacing: 4px;
+    /*letter-spacing: 2px;*/
   }
 }
 
 .project-image:hover {
   filter: saturate(100%);
-  border-radius: 15px;
 }
 
 @media (max-width: 28.25em) {
@@ -980,7 +989,7 @@ footer {
 }
 
 .banner-video-typo video {
-  height: 390px!important;
+  height: 440px!important;
 }
 
 .banner-video-typo {
