@@ -701,7 +701,7 @@ a.btn:hover {
   .projects-grid h3 {
     padding-top: 2rem;
     font-size: 1.9rem;
-    /*letter-spacing: 2px;*/
+    letter-spacing: 3px;
   }
 }
 
@@ -734,6 +734,7 @@ a.btn:hover {
 /*Contact section*/
 footer {
   width: 100%;
+  background-color: rgba(0,0,0,.03);
 }
 
 .contact-section {
