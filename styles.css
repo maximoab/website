@@ -275,7 +275,7 @@ a.btn:hover {
 	color: var(--main-gray);
 	display: flex;
 	align-items: center;
-	font-size: 4rem;
+  font-size: 4rem;
   letter-spacing: 0.1rem;
 }
 
@@ -310,7 +310,7 @@ a.btn:hover {
   }
 
   .nav-list li a {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   
   .logo {
@@ -826,6 +826,8 @@ footer {
   }
   .contact-details {
     padding-bottom: 4rem;
+    text-decoration: 1px underline;
+    text-underline-offset: 1rem
   }
   a.email {
     font-size: 1.7rem;
