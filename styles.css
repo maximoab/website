@@ -76,6 +76,12 @@ body {
 	color: var(--text-p);
 }
 
+@media screen and (min-width:30em) {
+  body {
+  padding: 0 10rem!important;
+  }
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -149,8 +155,15 @@ h1 {
 }
 
 h2 {
-	font-size: 4.2rem;
+	/*font-size: 4.2rem;*/
+  font-size: 8rem;
   
+}
+
+@media screen and (max-width: 30em) {
+  h2 {
+  font-size: 4.2rem;
+  }
 }
 
 h3 {
@@ -281,11 +294,17 @@ a.btn:hover {
     justify-content:end;
 	}
 	
+  .header {
+    padding: 0rem 2rem 0 2rem;
+  }
+
 	.nav-list {
     margin: 0 1rem;
 	}
   
   .nav-list li {
+    text-decoration: 1px underline;
+    text-underline-offset: 1rem;
     padding: 1.5rem 1rem!important;
   }
 
@@ -399,6 +418,7 @@ a.btn:hover {
   }
   .welcome-section-content {
     margin: 5rem 1rem;
+    padding-top: 1rem;
   }
   .testimonial-row {
     padding: 0 2rem;
@@ -414,26 +434,27 @@ a.btn:hover {
 #about-me {
   display: flex;
   max-width: var(--content-width);
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   text-align: center;
-  margin: 40px auto;
-  padding-top: 80px;
-  /*border-left: 2px dotted rgba(0,0,0,.9);*/
+  margin: 0px auto;
+  /*padding-top: 80px;*/
 }
 
 .about-me {
-  width: 900px;
+  /*width: 900px;*/
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px;
-  padding: 60px;
+  gap:8rem;
+  padding: 60px 5rem;
   text-align: left;
 }
 
 .about-me p {
   padding-bottom: 6rem;
+  /*text-transform: uppercase;*/
+  /*color: rgba(0,0,0,.4);*/
 }
 
 .col-izq {
@@ -449,7 +470,8 @@ a.btn:hover {
 }
 
 .img-about {
-  height: 400px;
+  height: 70vh;
+  /*height: 700px;*/
   object-fit: cover;
   filter: saturate(20%);
   /*border: 24px solid #222;*/
@@ -465,6 +487,35 @@ a.btn:hover {
 @media screen and (max-width:1000px) {
   .about-me {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width:30em) {
+  .img-about {
+    /*box-shadow: none;*/
+    width: 100%;
+    object-fit: cover;
+    margin: 2rem;
+  }
+  .about-me {
+    padding-top: 0px;
+    margin: 0 2rem;
+  }
+  .col-izq,
+  .col-der {
+    width: 100%;
+    padding: 2rem;
+    margin: 0;
+  }
+
+  .col-der {
+    border-left: 2px dotted rgba(0,0,0,.4);
+    padding-left: 4rem;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  #about-me {
+    padding: 2rem 1rem;
   }
 }
 
@@ -564,8 +615,7 @@ a.btn:hover {
   /*justify-content: flex-end;*/
   align-items: flex-end;
   /*grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));*/
-  gap:  12rem;
-  /*width: 870px;*/
+  gap:  15rem;
   max-width: var(--content-width);
   overflow: hidden;
   margin: 0 auto;
@@ -614,10 +664,13 @@ a.btn:hover {
 
 .project-image {
   /*width: 980px;*/
- height: 680px;
+  width: 70vw;
+  max-width: 820px;
+  /*height: 680px;*/
+  height: 70vh;
   object-fit: cover;
   filter: saturate(4%);
-  transition: filter 1s ease-out;
+  transition: all 1s ease-out;
 }
 
 .projects-grid h3 {
@@ -626,6 +679,7 @@ a.btn:hover {
 
 @media screen and (max-width: 30em) {
   .project-image {
+    width: 100%;
     height: 260px;
   }
   .projects-grid {
@@ -640,6 +694,7 @@ a.btn:hover {
 
 .project-image:hover {
   filter: saturate(100%);
+  border-radius: 15px;
 }
 
 @media (max-width: 28.25em) {
@@ -667,7 +722,6 @@ a.btn:hover {
 /*Contact section*/
 footer {
   width: 100%;
-  background-color: #f7f7f7;
 }
 
 .contact-section {
@@ -688,7 +742,7 @@ footer {
     padding: 2rem 2rem 1rem 2rem;
   }
   .contact-section {
-    height: 410px;
+    height: 610px;
   }
 }
 
@@ -937,8 +991,10 @@ footer {
   margin-bottom: -100px!important;
 }
 
-.welcome-section-content {
-  border-right: 1px dotted rgba(0,0,0,.9);
+@media screen and (max-width30em) {
+  .welcome-section-content {
+    border-right: none;
+  }
 }
 
 .welcome-section h2 {
@@ -990,7 +1046,7 @@ footer {
   line-height: 1;
   color: #333;
   letter-spacing: 3rem;
-  font-weight: 400;
+  font-weight: 500;
   padding-left: 10px;
   mix-blend-mode: screen;
   text-transform: uppercase;
@@ -1031,7 +1087,7 @@ footer {
   .typewriter h2,
   .typewriter h3,
   .banner-video-typo h2{
-    font-size: 12rem;
+    font-size: 10rem;
   }
   .banner-video-typo {
     height: 236px;
@@ -1057,7 +1113,7 @@ footer {
 
 @media screen and (max-width: 1200px) {
   .banner-video-typo h2 {
-    /*font-size: 19rem;*/
+    font-size: 10rem;
   }
   .banner-video-typo {
   height: 250px;
@@ -1114,7 +1170,8 @@ footer {
   .typewriter h3,
   .banner-video-typo h2{
     width: 100%;
-    font-size: 7rem;
+    font-size: 8.4rem;
+    font-weight: 500;
     letter-spacing: .7rem;
     /*animation: typewriter 20s linear infinite;*/
     -webkit-text-stroke-color: unset;
@@ -1128,8 +1185,8 @@ footer {
   }
 
   .banner-video-typo {
-    height: 180px;
-    margin-bottom: 6rem;
+    height: 230px;
+    margin: 6rem;
   }
   .typewriter h3 {
     -webkit-text-stroke: 1px!important;
