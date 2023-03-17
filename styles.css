@@ -74,7 +74,6 @@ body {
 	font-weight: 400;
 	line-height: 1.4;
 	color: var(--text-p);
-  overflow: hidden;
 }
 
 @media screen and (min-width:30em) {
@@ -367,8 +366,10 @@ a.btn:hover {
 @media screen and (max-width:30em) {
   .marquee-container {
     margin: -3rem auto 8rem;
-    width: 1000px;
-    max-width: 1000px;
+  }
+  .hide-mobile {
+    display: none;
+    visibility: hidden;
   }
 }
 
