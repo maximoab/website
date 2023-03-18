@@ -172,6 +172,13 @@ h3 {
   letter-spacing: 0.06rem;
 }
 
+p {
+  font-size: 1.8rem;
+  margin-top: 9rem;
+  /*margin-bottom: 2rem;*/
+  color: #666!important;
+}
+
 ul {
 	list-style: none;
 }
@@ -409,7 +416,7 @@ a.btn:hover {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: left;
   padding: 17rem 0;
   padding-right: 20rem;
   margin: 8rem auto;
@@ -420,17 +427,15 @@ a.btn:hover {
     padding: 16rem 1rem;
     /*margin: 0!important;*/
   }
+  .welcome-section-content p {
+    width: 100%!important;
+  }
 }
 
-.welcome-section-content > p {
-  font-size: 2.4rem;
-  /*font-family: Roboto, sans-serif;*/
-  /*text-transform: uppercase;*/
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  padding-left: 10%;
-  /*color: rgba(0,0,0,.3);*/
-  border-left: 1px dotted rgba(0,0,0,.9);
+@media screen and (min-width: 700px ) {
+  .welcome-section-content > p {
+    width: 33%;
+  }
 }
 
 .testimonial-container {
@@ -463,7 +468,7 @@ a.btn:hover {
     font-size: 4.3rem;
   }
   p {
-    font-size: 1.6rem;
+    font-size: 1.9rem!important;
   }
   #welcome-section {
     height: 780px;
@@ -483,6 +488,10 @@ a.btn:hover {
   .brands-wrap {
     max-width: 50px;
   }
+}
+
+#ayudo-final .welcome-section-content h2{
+  text-align: right;
 }
 
 #about-me {
@@ -507,6 +516,7 @@ a.btn:hover {
 .about-me p {
   padding-bottom: 6rem;
   /*font-size: 2.4rem!important;*/
+  color: #333;
 }
 
 .col-izq {
@@ -566,7 +576,7 @@ a.btn:hover {
     /*border-left: 2px dotted rgba(0,0,0,.4);*/
     padding-left: 0;
     margin-left: 0;
-    margin-bottom: 2rem;
+    margin-bottom: -6rem;
   }
   #about-me {
     padding: 2rem 0rem;
