@@ -380,6 +380,31 @@ a.btn:hover {
   margin-top: 14rem;
 }
 
+.marquee-container-negative {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: -1rem auto 2rem auto;
+  height: 30px;
+  overflow: hidden;
+  line-height: 30px;
+  letter-spacing: 4px;
+  font-family: roboto;
+  text-transform: uppercase;
+  border-top: 1px solid #222;
+  background-color: #222;
+  color: #ccc;
+  border-bottom: 1px solid #222;
+  margin: auto;
+  padding: 15px;
+  margin-top: 14rem;
+  transform: rotate(-5deg);
+  margin-bottom: 100px;
+}
+
+
+
 @media screen and (max-width:30em) {
   .marquee-container {
     margin: -3rem auto 8rem;
@@ -535,7 +560,6 @@ a.btn:hover {
 .img-about {
   z-index: 1;
   height: 980px;
-  /*max-height: 840px;*/
   object-fit: cover;
   filter: saturate(20%);
   transition: all 0.3s ease-in-out;
@@ -626,10 +650,6 @@ a.btn:hover {
 #section-2 h2 {
   font-size: 8rem;
   text-align: center;
-}
-
-.section-2-container {
-  /*max-width: 800px;*/
 }
 
 @media (max-width: 40em) {
