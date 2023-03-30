@@ -149,6 +149,7 @@ h3{
 	/*line-height: 1.2;*/
   color: var(--text-title);
   padding-bottom: 2.5rem;
+  letter-spacing: 10px;
 }
 
 h1 {
@@ -163,7 +164,6 @@ h2 {
 h3 {
   font-size: 6rem;
   text-align: left;
-  letter-spacing: 0.06rem;
 }
 
 @media screen and (max-width: 30em) {
@@ -242,7 +242,7 @@ a.btn:hover {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 1.2rem;
-	letter-spacing: .2rem;
+  letter-spacing: .2rem;
   padding-bottom: 2rem;
 }
 
@@ -368,8 +368,16 @@ a.btn:hover {
   height: 30px;
   overflow: hidden;
   line-height: 30px;
-  /*text-transform: lowercase;*/
-  letter-spacing: 2px;
+  letter-spacing: 4px;
+  font-family: roboto;
+  text-transform: uppercase;
+  background-color: #333;
+  color: #eee;
+  margin: auto;
+  padding: 10px;
+  /*border-radius: 22px;*/
+  /*transform: rotate(10deg);*/
+  margin-top: 14rem;
 }
 
 @media screen and (max-width:30em) {
@@ -399,10 +407,6 @@ a.btn:hover {
   display: flex;
   justify-content: space-around;
   animation-delay: 15s;
-}
-
-.marquee-container b {
-  padding-left: 10px;
 }
 
 @keyframes marquee {
@@ -479,7 +483,7 @@ a.btn:hover {
   }
   .welcome-section-content {
     margin: 5rem 1rem 4rem 1rem;
-    padding-top: 1rem;
+    padding-top: 6rem;
   }
   .testimonial-row {
     padding: 0 2rem;
@@ -503,22 +507,16 @@ a.btn:hover {
   align-items: center;
   text-align: center;
   margin: 0px auto;
-  /*padding-top: 80px;*/
 }
 
 .about-me {
   display: flex;
   justify-content: space-between;
-  /*align-items: center;*/
+  align-items: center;
   gap:8rem;
   padding: 60px 0rem;
   text-align: left;
-}
-
-.about-me p {
-  padding-bottom: 6rem;
-  /*font-size: 2.4rem!important;*/
-  color: #333;
+  margin-top: -28rem;
 }
 
 .col-izq {
@@ -526,6 +524,7 @@ a.btn:hover {
 }
 
 .col-der {
+  text-align: left;
   width: 50%;
 }
 
@@ -534,19 +533,16 @@ a.btn:hover {
 }
 
 .img-about {
-  height: 70vh;
-  max-height: 540px;
-  /*height: 700px;*/
+  z-index: 1;
+  height: 980px;
+  /*max-height: 840px;*/
   object-fit: cover;
   filter: saturate(20%);
-  /*border: 24px solid #222;*/
-  /*box-shadow: -40px 40px 0px #ccc;*/
   transition: all 0.3s ease-in-out;
 }
 
 .img-about:hover {
   filter: saturate(100%);
-  border: 0;
 }
 
 @media screen and (max-width:1000px) {
@@ -559,7 +555,7 @@ a.btn:hover {
   .img-about {
     /*box-shadow: none;*/
     width: 100%;
-    height: 460px;
+    height: 490px;
     object-fit: cover;
     margin-bottom: -3rem!important;
   }
@@ -602,6 +598,7 @@ a.btn:hover {
   .about-me p {
     text-align: left;
     padding-bottom: 4rem;
+    padding-top: 8px;
   }
 }
 
@@ -715,10 +712,6 @@ a.btn:hover {
 
 .project:hover .code {
   color: var(--main-black);
-}
-
-.project:hover h3 {
-  letter-spacing: .2rem;
 }
 
 @media screen and (max-width: 30em) {
@@ -1053,11 +1046,8 @@ footer {
   height: 100%;
 }
 
-.banner-video-typo video {
-  height: 440px!important;
-}
-
 .banner-video-typo {
+  z-index: 1000;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -1065,6 +1055,10 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 12rem auto 8rem auto;
+}
+
+.banner-video-typo h2 {
+  z-index: 1000000;
 }
 
 .welcome-section {
@@ -1109,7 +1103,6 @@ footer {
     padding-bottom: 0;
     height: 100%;
   }
-
 }
 
 .banner-video-typo video {
@@ -1132,7 +1125,6 @@ footer {
   font-weight: 500;
   padding-left: 10px;
   /*mix-blend-mode: screen;*/
-  pointer-events:none;
 }
 
 .typewriter {
@@ -1165,8 +1157,13 @@ footer {
   line-height: 1;
 }
 
-.word-1 {
-  font-size: 14rem;
+.word-1,
+.word-2 {
+  display: block;
+  font-size: 13.3rem;
+  font-weight: 500;
+  font-family: roboto;
+  text-align: left!Important;
 }
 
 .active {
@@ -1175,6 +1172,7 @@ footer {
   text-decoration: 6px solid underline;
   text-underline-offset: 2rem;
   margin-top: 8rem;
+  text-align: left!important;
 }
 
 @media screen and (max-width: 30em) {
@@ -1190,7 +1188,8 @@ span.dreams {
 }
 
 @media screen and (max-width: 30em) {
-  span.word-1 {
+  span.word-1,
+  span.word-2 {
     font-size: 8rem;
     letter-spacing: 2px;
   }
@@ -1209,9 +1208,6 @@ span.dreams {
   .typewriter h3,
   .banner-video-typo h2{
     font-size: 10rem;
-  }
-  .banner-video-typo {
-    height: 236px;
   }
   #welcome-section{
     height: unset;
@@ -1258,9 +1254,6 @@ span.dreams {
   .banner-video-typo h2{
     font-size: 9rem;
   } 
-  .banner-video-typo {
-  height: 230px;
-
 }
 
 @media screen and (max-width: 900px) {
@@ -1293,9 +1286,6 @@ span.dreams {
     width: 100%;
     font-size: 8.4rem;
     font-weight: 500;
-    line-height: .8;
-    letter-spacing: .7rem;
-    /*animation: typewriter 20s linear infinite;*/
     -webkit-text-stroke-color: unset;
     -webkit-text-stroke-color: unset;
     color: #333!important;
@@ -1307,7 +1297,6 @@ span.dreams {
   }
 
   .banner-video-typo {
-    height: 230px;
     margin: 6rem;
   }
   .typewriter h3 {
