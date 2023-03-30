@@ -1420,3 +1420,13 @@ span.dreams {
   max-width: 800px;
 }
 
+.span-underline {
+  text-decoration: underline 1px;
+  text-underline-offset: 1.8rem;
+}
+
+@media screen and (max-width: 30em) {
+  .span-underline {
+  text-underline-offset: .8rem;
+}
+}
