@@ -62,3 +62,44 @@ Section 4 - Repeat target and reforce
 
 
 Section 5 - 
+
+      START SECTION - 4
+      <section id="section-2">
+        <div class="section-2-container">
+          <span class="title-span">Despierta del letargo digital</span>
+          <h2>Building your online presence</h2>
+          <p>
+            Una web es el nuevo local en línea, tan real como un local físico. 
+            Asegúrate de tener una presencia en línea sólida y atractiva para
+            alcanzar el éxito digital.
+          </p>
+          <p>
+            Ensure you offer a unique and engaging user experience to make your 
+            customers fall in love with your brand and generate more revenue for 
+            your business.
+          </p>
+        </div>
+      </section>
+      END SECTION - 4
+
+
+       <!--<div class="testimonial-container">-->
+          <!--<div class="testimonial-row">-->
+            <!--<div class="brands-wrap">-->
+              <!--<img src="https://assets.vercel.com/image/upload/front/home/new/logos/adobe.svg" loading="lazy" alt="logo-adobe">-->
+            <!--</div>-->
+            <!--<div class="brands-wrap">-->
+              <!--<img src="https://assets.vercel.com/image/upload/front/home/new/logos/okta.svg" loading="lazy" alt="">-->
+            <!--</div>-->
+            <!--<div class="brands-wrap">-->
+              <!--<img src="https://assets.vercel.com/image/upload/front/home/new/logos/under-armour.svg" loading="lazy" alt="">-->
+            <!--</div>-->
+            <!--<div class="brands-wrap">-->
+              <!--<img src="https://assets.vercel.com/image/upload/front/home/new/logos/ebay.svg" loading="lazy" alt="">-->
+            <!--</div>-->
+            <!--<div class="brands-wrap">-->
+              <!--<img src="https://assets.vercel.com/image/upload/front/home/new/logos/zapier.svg" loading="lazy" alt="">-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+
