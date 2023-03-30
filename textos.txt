@@ -103,3 +103,11 @@ Section 5 -
           <!--</div>-->
         <!--</div>-->
 
+    <!--<link -->
+			<!--rel="stylesheet"-->
+			<!--href="https://use.fontawesome.com/releases/v6.2.1/css/all.css"-->
+      <!--crossorigin="anonymous">-->
+
+
+Masahiro Sakurai Tribute Page ↗︎
+Personal biography tribute to big game designer.
