@@ -297,6 +297,11 @@ a.btn:hover {
 
 .nav-list {
 	display: flex;
+  gap: 6rem;
+}
+
+.nav-list a {
+  text-transform: lowercase;
 }
 
 @media (max-width: 28.75em) {
@@ -310,6 +315,7 @@ a.btn:hover {
 
 	.nav-list {
     margin: 0 1rem;
+    gap: 1rem;
 	}
   
   .nav-list li {
@@ -535,6 +541,13 @@ a.btn:hover {
   padding: 60px 0rem;
   text-align: left;
   margin-top: -28rem;
+}
+
+.about-me h2 {
+  font-weight: 500;
+  text-align: right;
+  line-height: 1.2;
+  /*letter-spacing: 16px;*/
 }
 
 .col-izq {
