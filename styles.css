@@ -260,8 +260,9 @@ a.btn:hover {
 
 .header {
 	display: flex;
-	/*position: fixed;*/
-  padding: 2rem 2rem 0 2rem;
+	position: stycky;
+	border-bottom: 1px #888 solid;
+  	padding: 2rem 2rem 0 2rem;
 	top: 0;
 	left: 0;
 	width: 100%;
