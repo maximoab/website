@@ -1123,7 +1123,7 @@ footer {
 
 @media screen and (max-width: 28.04em) {
   #welcome-section {
-    padding-top: 4rem;
+    padding-top: 4rem!important;
     padding-bottom: 0;
     height: 100%;
   }
