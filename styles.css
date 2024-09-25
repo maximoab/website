@@ -104,9 +104,9 @@ body::-webkit-scrollbar {
 
 /* Efecto hover */
 .btn-hero:hover {
-    background-color: #CC0000;  /* Cambia el color de fondo en hover */
-    color: #ffffff;  /* Color del texto en hover */
-    border-color: #ffffff;  /* Borde al hacer hover */
+    background-color: ;  /* Cambia el color de fondo en hover */
+    color: ;  /* Color del texto en hover */
+    border-color: ;  /* Borde al hacer hover */
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);  /* Aumenta la sombra */
     transform: translateY(-3px);  /* Efecto de elevación al hacer hover */
 }
@@ -639,7 +639,7 @@ a.btn:hover {
     margin-bottom: -6rem;
   }
   #about-me {
-    padding: 2rem 0rem;
+    padding: 2rem 0rem 8em 0;
   }
 }
 
