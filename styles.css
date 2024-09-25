@@ -83,8 +83,36 @@ body {
 }
 
 body::-webkit-scrollbar {
-  display: none;
 }
+
+/* Estilos del botón del Hero */
+.btn-hero {
+    display: inline-block;
+    padding: 15px 30px;  /* Tamaño del botón */
+    background-color: #FF0000;  /* Color de fondo */
+    color: #ffffff;  /* Color de texto */
+    font-size: 18px;  /* Tamaño de fuente */
+    font-weight: bold;  /* Grosor de la fuente */
+    text-transform: uppercase;  /* Texto en mayúsculas */
+    text-align: center;  /* Centra el texto */
+    border-radius: 5px;  /* Bordes redondeados */
+    border: 2px solid transparent;  /* Borde del botón */
+    transition: all 0.3s ease-in-out;  /* Transición suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra */
+    text-decoration: none;  /* Elimina el subrayado */
+}
+
+/* Efecto hover */
+.btn-hero:hover {
+    background-color: #CC0000;  /* Cambia el color de fondo en hover */
+    color: #ffffff;  /* Color del texto en hover */
+    border-color: #ffffff;  /* Borde al hacer hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);  /* Aumenta la sombra */
+    transform: translateY(-3px);  /* Efecto de elevación al hacer hover */
+}
+
+/* Personaliza según tu diseño */
+
 
 body #magicMouseCursor {
   z-index:10000000!important;
