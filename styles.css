@@ -88,18 +88,18 @@ body::-webkit-scrollbar {
 /* Estilos del botón del Hero */
 .btn-hero {
     display: inline-block;
-    padding: 15px 30px;  /* Tamaño del botón */
-    background-color: #FF0000;  /* Color de fondo */
-    color: #ffffff;  /* Color de texto */
-    font-size: 18px;  /* Tamaño de fuente */
-    font-weight: bold;  /* Grosor de la fuente */
-    text-transform: uppercase;  /* Texto en mayúsculas */
-    text-align: center;  /* Centra el texto */
-    border-radius: 5px;  /* Bordes redondeados */
-    border: 2px solid transparent;  /* Borde del botón */
-    transition: all 0.3s ease-in-out;  /* Transición suave */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra */
-    text-decoration: none;  /* Elimina el subrayado */
+    padding: 15px 30px;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
 }
 
 /* Efecto hover */
