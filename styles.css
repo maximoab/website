@@ -89,27 +89,14 @@ body::-webkit-scrollbar {
 .btn-hero {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #333;
+	border-bottom: 1px solid #333;
+    background-color: #fff;
     color: #ffffff;
     font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    border-radius: 0px;
-    border: 2px solid transparent;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-decoration: none;
+    font-weight: 400;
+    text-align: center; 
 }
 
-/* Efecto hover */
-.btn-hero:hover {
-    background-color: ;  /* Cambia el color de fondo en hover */
-    color: ;  /* Color del texto en hover */
-    border-color: ;  /* Borde al hacer hover */
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);  /* Aumenta la sombra */
-    transform: translateY(-3px);  /* Efecto de elevación al hacer hover */
-}
 
 /* Personaliza según tu diseño */
 
