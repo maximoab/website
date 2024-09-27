@@ -1468,15 +1468,15 @@ img {
     position: fixed;
     bottom: 15px;
     right: 15px;
-    z-index: 9999; /* Muy alto para asegurar que esté por encima de todo */
-    border: 2px solid red; /* Borde visible para pruebas */
+    z-index: 999; /* Asegúrate de que esté por encima de otros elementos */
 }
 
 .whatsapp-icon {
     width: 20px;
     height: 20px;
     padding: 15px;
-    background-color: #ff0000; /* Fondo rojo temporal para verificar visibilidad */
-    border-radius: 50%;
+    background-color: transparent; /* Fondo del icono */
+    border-radius: 50%; /* Para un diseño circular */
     cursor: pointer;
 }
+
