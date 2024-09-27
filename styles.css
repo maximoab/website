@@ -1475,7 +1475,8 @@ img {
     width: 20px;
     height: 20px;
     padding: 15px;
-    background-color: transparent; /* Puedes cambiar el fondo si quieres */
-    border-radius: 50%; /* Para un diseño circular */
+    background-color: #ff0000; /* Color de fondo rojo para pruebas */
+    border-radius: 50%;
     cursor: pointer;
 }
+
