@@ -1463,3 +1463,19 @@ span.dreams {
 img {
   border-radius: 18px;
 }
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 999; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.whatsapp-icon {
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    background-color: transparent; /* Puedes cambiar el fondo si quieres */
+    border-radius: 50%; /* Para un diseño circular */
+    cursor: pointer;
+}
